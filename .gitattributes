@@ -1,3 +1,6 @@
+# Excluir carpetas del export (por ejemplo, cuando se descarga el repo)
 data/ export-ignore
 generated/ export-ignore
-*.ipynb linguist-vendored
+
+# Forzar que los notebooks no se cuenten como código
+*.ipynb linguist-language=Text
